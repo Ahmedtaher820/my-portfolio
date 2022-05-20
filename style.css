@@ -89,7 +89,7 @@ html{
 }
 .last-cover{
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Mochiy Pop One', sans-serif;
