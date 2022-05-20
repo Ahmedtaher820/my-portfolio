@@ -13,7 +13,15 @@ t1.from(".dot", 1, {
   delay: 0.1,
 });
 t1.to(".dot", 0.5, {
-  x: 100,
+  x: 200,
+  ease: "power1.out",
+});
+t1.to(".dot", 0.5, {
+  x: 25,
+  ease: "power1.out",
+});
+t1.to(".dot", 0.5, {
+  x: 150,
   ease: "power1.out",
 });
 t1.to(".dot", 0.1, {
@@ -99,11 +107,7 @@ let one = document.querySelector(".one");
   (three = document.querySelector(".three")),
   (four = document.querySelector(".four"));
 const items = [one, two, three, four];
-t1.from(".logo", 0.5, {
-  xPercent: -100,
-  opacity: 0,
-  ease: "power1.out",
-});
+
 t1.staggerFrom(items, 0.5, {
   xPercent: 100,
   opacity: 0,
@@ -115,9 +119,8 @@ t1.staggerFrom(items, 0.5, {
 
 t1.from(
   ".left-slide",
-  1,
+  2,
   {
-    xPercent: 100,
     opacity: 0,
     ease: "power1.out",
   },
@@ -381,9 +384,9 @@ document.querySelector(".submit").onclick = () => {
       successMsg.textContent = "Your email is successfully. Thank you";
       successMsg.classList.add("success");
       coverFive.appendChild(successMsg);
-      setTimeout(()=>{
+      setTimeout(() => {
         successMsg.remove();
-      },3000)
-    }, 3000);
+      }, 3000);
+    }, 6000);
   }
 };

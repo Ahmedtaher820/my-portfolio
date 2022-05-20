@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="owl.carousel.min.css">
+
     <link rel="stylesheet" href="owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -30,7 +31,7 @@
     <div class="cover">
         <div class="heading">
             <h1 class="cover-head">TAHER</h1>
-            <span class="dot">.</span>
+            <span class="dot"></span>
         </div>
     </div>
     <div class="last-cover ">The PortFolio</div>
@@ -52,10 +53,16 @@
                 <li id="sence4" class="item four"><a data-depth="-1.5" href="#contact">Contact</a><i
                         class="fa-solid fa-address-book"></i></li>
             </ul>
-            <a class="phone" href="tel:+2001008203698">
+            <a class="phone d-none d-md-block" href="tel:+2001008203698">
                 (+20)01008203698
             </a>
-            <div>[email: et8989784@gmail.com]</div>
+            <span class="d-none d-md-block" href="">[email: et8989784@gmail.com]</span>
+            <div class="d-block d-md-none d-flex gap-4">
+                <small class="phone" href="tel:+2001008203698">
+                    (+20)01008203698
+                </small>
+                <small>[email: et8989784@gmail.com]</small>
+            </div>
             <div class="burger ">
                 <span class="line-one"></span>
                 <span class="line-two"></span>
@@ -147,16 +154,17 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div class="web-content text-center text-md-start">
+                        <div class="web-content text-start">
                             <div class="about-me-dis">
-                                <p>i Ahmed Taher Front-End Developer have laste One yae Experience with web development.
+                                <p>I'am Ahmed Taher Front-End Developer, I have at least One year Experience with web
+                                    development.
                                     I can work Under pressure.</p>
                                 <p>Motivated recent web development graduate with experience building unbreakable and
                                     elegant JavaScript websites looking for an opportunity to grow front-end development
                                     skills in an innovative environment.</p>
                             </div>
                             <h4 class="fs-4 fw-bold mb-4">My advantage</h4>
-                            <ol>
+                            <ol class="text-start">
                                 <li>Quiet</li>
                                 <li>Comminication skills</li>
                                 <li>Quick to finish jobs</li>
@@ -195,7 +203,7 @@
         <div class="skills" id="skills">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5 px-5 px-md-2">
                         <div class="experience">
                             <h2>Skills & <br> Experience</h2>
                         </div>
@@ -219,7 +227,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="skill">
-                            <ul class="list-unstyled d-flex gap-2 flex-column">
+                            <ul class="list-unstyled d-flex gap-2 flex-column mt-4 mt-md-0">
                                 <li>
                                     <div class="skill-header d-flex justify-content-between align-items-center">
                                         <h4>Html5</h4>
@@ -341,7 +349,7 @@
         <div class="contact" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 px-5 px-md-2">
                         <div class="contact-contect">
                             <h2>Contact Me</h2>
                             <p>I’m interested in freelance opportunities – especially ambitious or large projects.
@@ -350,7 +358,7 @@
                             <form action="" class="mt-5">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="input-box position-relative">
+                                        <div class="input-box position-relative mb-3">
                                             <input type="text" placeholder="Name" oninput="checkInput('name')">
                                             <span class="input-border name"></span>
                                         </div>
@@ -386,7 +394,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-none d-md-block">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27327.894343166547!2d30.922674449282482!3d31.110099109927866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1652523080082!5m2!1sen!2seg" width="600" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -437,7 +445,7 @@
         </div>
         <i class="bi bi-x" onclick="modalClose('yoga-modal')"></i>
         <a href="https://ahmedtaher820.github.io/yoga-website/index.html" class="bg-light"
-            target="_blank">https://ahmedtaher820.github.io/yoga-website/index.html</a>
+            target="_blank" class="demo">Live Demo</a>
     </div>
 
     <div class="modal flex-column gap-5 carcare-modal">
@@ -463,7 +471,7 @@
         </div>
         <i class="bi bi-x" onclick="modalClose('carcare-modal')"></i>
         <a href="https://carcare-3.herokuapp.com/" class="bg-light"
-            target="_blank">https://carcare-3.herokuapp.com/</a>
+            target="_" class="demo">Live Demo</a>
     </div>
     <div class="modal flex-column gap-5 help-modal">
         <h2>HELPZ</h2>
@@ -485,7 +493,7 @@
         </div>
         <i class="bi bi-x" onclick="modalClose('help-modal')"></i>
         <a href="https://ahmedtaher820.github.io/Helpze-people-website/index.html" class="bg-light"
-            target="_blank">https://ahmedtaher820.github.io/Helpze-people-website/index.html</a>
+            target="_blank" class="demo">Live Demo</a>
     </div>
     <div class="modal flex-column gap-5 emarket-modal">
         <h2>E-Market</h2>
@@ -513,7 +521,7 @@
         </div>
         <i class="bi bi-x" onclick="modalClose('emarket-modal')"></i>
         <a href="https://carcare-3.herokuapp.com/contact" class="bg-light"
-            target="_blank">https://carcare-3.herokuapp.com/contact</a>
+            target="_blank" class="demo">Live Demo</a>
     </div>
     <div class="modal flex-column gap-5 portfolio-modal">
         <h2>Training-Portoflio</h2>
@@ -538,14 +546,15 @@
         </div>
         <i class="bi bi-x" onclick="modalClose('portfolio-modal')"></i>
         <a href="https://ahmedtaher820.github.io/Portfolio-Training/" class="bg-light"
-            target="_blank">https://ahmedtaher820.github.io/Portfolio-Training/</a>
+            target="_blank" class="demo">Live Demo</a>
     </div>
     </div>
     <script src="jquery-3.6.0.min.js"></script>
-    <script src="owl.carousel.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script src="owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>

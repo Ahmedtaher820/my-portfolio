@@ -10,7 +10,11 @@
     line-height: 1;
     margin-bottom: 40px;
     position: relative;
-    
+}
+@media (max-width:768px){
+    .skills .experience h2,.contact-contect h2{
+        font-size: 60px ;
+    }
 }
 .exper-content{
     margin-top: 40px;

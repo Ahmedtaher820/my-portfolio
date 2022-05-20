@@ -26,6 +26,7 @@ body{
     position: relative;
     overflow-x: hidden;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -65,7 +66,9 @@ html{
 }
 .heading .dot{
     display: inline-block;
-    font-size: 85px;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
     border-radius: 50%;
     font-weight: bold;
     color: var(--heading-color);
@@ -79,7 +82,7 @@ html{
     background-color: var(--body-color);
 }
 .cover-3{
-    background-color: var(--first-color);
+    background-color: #91eae4;
 }
 .cover-4{
     background-color: #91eae4;
@@ -112,7 +115,11 @@ html{
     font-family: 'Mochiy Pop One', sans-serif;
 
 }
-
+@media (max-width:768px){
+    .left-slide{
+       max-height: 70vh; 
+    }
+}
 .left-slide :is(h2,h3){
     position: relative;
     width: fit-content;
@@ -184,6 +191,8 @@ display: inline-block;
     transition: .3s;
     position: relative;
     font-size: 14px;
+
+    z-index: 2;
 }
 .btn-group a::after{
     content: '';
@@ -193,7 +202,6 @@ display: inline-block;
     width: 0px;
     height: 100%;
     background-color: #08fdd8;
-    z-index: -1;
 }
 .btn-group a:hover{
 border:none;
@@ -201,6 +209,8 @@ color: #1d1d1d;
 }
 .btn-group a:hover::after{
     animation: fillAll .4s 1 ease-in-out both;
+    z-index: -1;
+
 }
 @keyframes fillAll{
     0%{
@@ -287,9 +297,7 @@ color: #1d1d1d;
         margin-top: 0px;
         margin-left: 0px;
     }
-    .left-slide h1{
-    font-size: 40px;
-    }
+    
     .right-slide{
         width: 100%;
         text-align: center;
@@ -298,6 +306,11 @@ color: #1d1d1d;
         margin-right: 0px;
         width: 250px;
     }
+}
+@media(max-width:768px){
+    .left-slide h1{
+        font-size: 32px;
+        }
 }
 /* my project section */
 .myproject h2{
@@ -315,11 +328,16 @@ color: #1d1d1d;
     height: 300px;
     opacity: .5;
 }
+@media (max-width:768px){
+    .swiper-slide{
+        width: 75%;
+    }
+}
 .swiper-wrapper{
     transition-delay: .1s;
 }
 .swiper-slide:nth-child(1) .slide-img{
-    background-image: url("img/carcareone.png");
+    background-image: url("img/caracre.PNG");
 }
 .swiper-slide:nth-child(2) .slide-img{
     background-image: url("img/emarket-1.PNG");
@@ -396,6 +414,7 @@ color: #1d1d1d;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.992);
     transform: translateY(-100%);
+    z-index: 200 !important;
     opacity: 0;
     transition: .3s;
 }
@@ -429,6 +448,21 @@ color: #1d1d1d;
     width: 70%;
     height: 320px;
     margin:0 auto;
+}
+.modal a.demo{
+    padding: 10px 30px;
+    background-color: #1d1d1d !important;
+    border: 1px solid #1d1d1d;
+    color: #f1f1f1;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+.modal a:hover{
+    background-color: #f1f1f1 !important;
+    border: 1px solid #1d1d1d;
+    color: #1d1d1d;
 }
 /* about section */
 .about{
