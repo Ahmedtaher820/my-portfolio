@@ -285,19 +285,10 @@ var scenefour = document.getElementById("sence4");
 var parallaxInstance4 = new Parallax(scenefour);
 // add cursot style
 document.querySelector("html").addEventListener("mousemove", (e) => {
-  // let wave = document.createElement("span")
-  // let body = document.querySelector("body")
-  // wave.classList.add("wave-animation")
+  
   document.querySelector(".cursor").style.left = e.clientX + "px";
   document.querySelector(".cursor").style.top = e.clientY + "px";
-  // let size = Math.random() * 100;
-
-  // wave.style.width=20+size+"px";
-  // wave.style.height=20+size+"px";
-  // body.appendChild(wave)
-  // setTimeout(()=>{
-  //   wave.remove()
-  // },1000)
+  
 });
 document.querySelectorAll(".item").forEach((e) => {
   e.addEventListener("mouseenter", () => {
@@ -390,3 +381,4 @@ document.querySelector(".submit").onclick = () => {
     }, 6000);
   }
 };
+
