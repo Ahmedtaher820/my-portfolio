@@ -94,6 +94,12 @@ margin-bottom: 15px;
 .skills li:nth-child(8) .skill-header div{
     transition-delay: 1.6s;
 }
+.skills li:nth-child(9) .skill-header div{
+    transition-delay: 1.8s;
+}
+.skills li:nth-child(10) .skill-header div{
+    transition-delay: 2s;
+}
 .skills .skill-header div.active{
     opacity: 1;
     pointer-events: auto;
@@ -115,36 +121,12 @@ margin-bottom: 15px;
     height: 100%;
     background-color: #fff;
 }
-.skills .skill li:nth-child(1) span span{
+.skills .skill li:nth-child(odd) span span{
     background-color: #08fdd8;
 }
-.skills .skill li:nth-child(2) span span{
+.skills .skill li:nth-child(even) span span{
     background-color: rgb(255, 34, 83);
 }
-.skills .skill li:nth-child(3) span span{
-    background-color: #08fdd8;
-}
-.skills .skill li:nth-child(4) span span{
-    background-color: rgb(255, 34, 83);
-
-}
-.skills .skill li:nth-child(5) span span{
-    background-color: #08fdd8;
-
-}
-.skills .skill li:nth-child(6) span span{
-    background-color: rgb(255, 34, 83);
-
-}
-.skills .skill li:nth-child(7) span span{
-    background-color: #08fdd8;
-
-}
-.skills .skill li:nth-child(8) span span{
-    background-color: rgb(255, 34, 83);
-
-}
-
 /* contact me section */
 .contact .contact-contect p{
     position: relative;
