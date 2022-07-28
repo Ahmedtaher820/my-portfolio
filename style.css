@@ -423,6 +423,13 @@ color: #1d1d1d;
     opacity: 0;
     transition: .3s;
 }
+@media (max-width:768px){
+    /* .modal{
+          height: 70vh;
+    top: 60vh !important;
+    padding: 20px;
+    } */
+}
 .modal.active{
     opacity: 1;
     transform: translate(-50%,-50%);
