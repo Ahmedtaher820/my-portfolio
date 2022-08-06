@@ -268,7 +268,14 @@
                                         <h4>Nuxt.js</h4>
                                         <div>75%</div>
                                     </div>
-                                    <span><span data-value="80%"></span></span>
+                                    <span><span data-value="75%"></span></span>
+                                </li>
+                                <li>
+                                    <div class="skill-header d-flex justify-content-between align-items-center">
+                                        <h4>TypeScript</h4>
+                                        <div>60%</div>
+                                    </div>
+                                    <span><span data-value="60%"></span></span>
                                 </li>
                                 <li>
                                     <div class="skill-header d-flex justify-content-between align-items-center">
@@ -294,9 +301,9 @@
                                 <li>
                                     <div class="skill-header d-flex justify-content-between align-items-center">
                                         <h4>RestFull Api</h4>
-                                        <div>95%</div>
+                                        <div>90%</div>
                                     </div>
-                                    <span><span data-value="95%"></span></span>
+                                    <span><span data-value="90%"></span></span>
                                 </li>
                             </ul>
                         </div>
@@ -331,23 +338,19 @@
                         <p><span>003</span></p>
                     </div>
                     <div class="slide-text">
-                        <h4><span>Yoga</span></h4>
+                        <h4><span>To To List</span></h4>
                     </div>
-                    <div class="slide-img yoga" onclick="modalOpen('yoga-modal')">
-                    </div>
-
+                    <div class="slide-img" onclick="modalOpen('todolist-modal')"></div>
                 </div>
-
                 <div class="swiper-slide">
                     <div class="slide-number">
                         <p><span>004</span></p>
                     </div>
                     <div class="slide-text">
-                        <h4><span>Helpz</span></h4>
+                        <h4><span>Music Player</span></h4>
                     </div>
-                    <div class="slide-img" onclick="modalOpen('help-modal')"></div>
+                    <div class="slide-img" onclick="modalOpen('music-modal')"></div>
                 </div>
-
                 <div class="swiper-slide">
                     <div class="slide-number">
                         <p><span>005</span></p>
@@ -357,6 +360,29 @@
                     </div>
                     <div class="slide-img" onclick="modalOpen('portfolio-modal')"></div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>006</span></p>
+                    </div>
+                    <div class="slide-text">
+                        <h4><span>Yoga</span></h4>
+                    </div>
+                    <div class="slide-img yoga" onclick="modalOpen('yoga-modal')">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>007</span></p>
+                    </div>
+                    <div class="slide-text">
+                        <h4><span>Helpz</span></h4>
+                    </div>
+                    <div class="slide-img" onclick="modalOpen('help-modal')"></div>
+                </div>
+
+
             </div>
 
         </div>
@@ -436,64 +462,7 @@
     </div>
     <!-- <div class="err">Please fill in all require fields</div> -->
     
-    <div class="modal flex-column gap-5 yoga-modal">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6 d-none d-md-block">
-                    <div class="owl-carousel owl-theme" id="owl-carousel">
-                        <div class="item">
-                            <img src="img/yoga.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/yoga2.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/yoga3.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/yoga4.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/yoga5.PNG" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="project-heading d-none d-md-block">
-                        <h2>Project information</h2>
-                    </div>
-                    <ul class="list-unstyled">
-                        <li class=" align-items-center gap-1 d-none d-md-flex">
-                            <h5>Category:</h5>
-                            <h6>Web application</h6>
-                        </li>
-                        <li class="d-flex align-items-center gap-1">
-                            <h5>Client:</h5>
-                            <h6>Yoga Website</h6>
-                        </li>
-                    </ul>
-                    <h6>Project URL:</h6>
-                    <a href="https://ahmedtaher820.github.io/yoga-website/index.html" 
-                    target="_blank" >https://ahmedtaher820.github.io/yoga-website/index.html</a>
-                    <h6>GITHUB URL:</h6>
-                    <a href="https://github.com/Ahmedtaher820/yoga-website" 
-                    target="_blank">https://github.com/Ahmedtaher820/yoga-website</a>
-                    <h6 class="mt-4">Tools:</h6>
-                    <ul class="list-unstyled tools">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap4</li>
-                        <li>Responsive Design</li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-        <i class="bi bi-x" onclick="modalClose('yoga-modal')"></i>
-        
-    </div>
-
+    
     <div class="modal flex-column gap-5 carcare-modal">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -553,60 +522,6 @@
             
         </div>
         <i class="bi bi-x" onclick="modalClose('carcare-modal')"></i>
-    </div>
-    <div class="modal flex-column gap-5 help-modal">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6 d-none d-md-block">
-                    <div class="owl-carousel owl-theme" id="owl-carousel">
-                        <div class="item">
-                            <img src="img/helpz1.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img//helpz2.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/helpz3.PNG" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/helpz5.PNG" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="project-heading d-none d-md-block">
-                        <h2>Project information</h2>
-                    </div>
-                    <ul class="list-unstyled">
-                        <li class=" align-items-center gap-1 d-none d-md-flex">
-                            <h5>Category:</h5>
-                            <h6>Web application</h6>
-                        </li>
-                        <li class="d-flex align-items-center gap-1">
-                            <h5>Client:</h5>
-                            <h6>Charity Website</h6>
-                        </li>
-                    </ul>
-                    <h6>Project URL:</h6>
-                    <a href="https://ahmedtaher820.github.io/Helpze-people-website/index.html" 
-                    target="_blank" >https://ahmedtaher820.github.io/Helpze-people-website/index.html</a>
-                    <h6>GITHUB URL:</h6>
-                    <a href="https://github.com/Ahmedtaher820/Helpze-people-website" 
-                    target="_blank">https://github.com/Ahmedtaher820/Helpze-people-website</a>
-                    <h6 class="mt-4">Tools:</h6>
-                    <ul class="list-unstyled tools">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap4</li>
-                        <li>Responsive Design</li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-        <i class="bi bi-x" onclick="modalClose('help-modal')"></i>
-        
     </div>
     <div class="modal flex-column gap-5 emarket-modal">
         <div class="container">
@@ -670,6 +585,220 @@
         <i class="bi bi-x" onclick="modalClose('emarket-modal')"></i>
         
     </div>
+    <div class="modal flex-column gap-5 todolist-modal">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="owl-carousel owl-theme" id="owl-carousel">
+                        <div class="item">
+                            <img src="img/todo-signup.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/todo-signin.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/todo-reset.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/todo-confirmemail.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/todo-list.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="project-heading d-none d-md-block">
+                        <h2>Project information</h2>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class=" align-items-center d-none d-md-flex gap-1">
+                            <h5>Category:</h5>
+                            <h6>Web application</h6>
+                        </li>
+                        <li class="d-flex align-items-center gap-1">
+                            <h5>Client:</h5>
+                            <h6>To-Do-List Website</h6>
+                        </li>
+                    </ul>
+                    <h6>Project URL:</h6>
+                    <a href="  https://to-do-list-eosin-five.vercel.app/login" 
+                    target="_blank" >https://to-do-list-eosin-five.vercel.app/login</a>
+                    <h6>GITHUB URL:</h6>
+                    <a href=" https://github.com/Ahmedtaher820/TO-DO-LIST-" 
+                    target="_blank">https://github.com/Ahmedtaher820/TO-DO-LIST-</a>
+                    <h6 class="mt-4">Tools:</h6>
+                    <ul class="list-unstyled tools">
+                        <li>Nuxt3.js</li>
+                        <li>Vuex</li>
+                        <li>Sass</li>
+                        <li>Bootstrap5</li>
+                        <li>Responsive Design</li>
+                        <li>RESTful API Design</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <i class="bi bi-x" onclick="modalClose('todolist-modal')"></i>
+       
+    </div>
+    <div class="modal flex-column gap-5 music-modal">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="owl-carousel owl-theme" id="owl-carousel">
+                        <div class="item">
+                            <img src="img/music-player.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="project-heading d-none d-md-block">
+                        <h2>Project information</h2>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class=" align-items-center d-none d-md-flex gap-1">
+                            <h5>Category:</h5>
+                            <h6>Web application</h6>
+                        </li>
+                        <li class="d-flex align-items-center gap-1">
+                            <h5>Client:</h5>
+                            <h6>Music Player Website</h6>
+                        </li>
+                    </ul>
+                    <h6>Project URL:</h6>
+                    <a href=" https://music-app-mu-olive.vercel.app/" 
+                    target="_blank" > https://music-app-mu-olive.vercel.app/</a>
+                    <h6>GITHUB URL:</h6>
+                    <a href="https://github.com/Ahmedtaher820/Music-App" 
+                    target="_blank">https://github.com/Ahmedtaher820/Music-App</a>
+                    <h6 class="mt-4">Tools:</h6>
+                    <ul class="list-unstyled tools">
+                        <li>JavaScript and dealing with sound</li>
+                        <li>Html5</li>
+                        <li>Sass</li>
+                        <li>Bootstrap5</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <i class="bi bi-x" onclick="modalClose('music-modal')"></i>
+       
+    </div>
+    <div class="modal flex-column gap-5 yoga-modal">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="owl-carousel owl-theme" id="owl-carousel">
+                        <div class="item">
+                            <img src="img/yoga.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/yoga2.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/yoga3.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/yoga4.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/yoga5.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="project-heading d-none d-md-block">
+                        <h2>Project information</h2>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class=" align-items-center gap-1 d-none d-md-flex">
+                            <h5>Category:</h5>
+                            <h6>Web application</h6>
+                        </li>
+                        <li class="d-flex align-items-center gap-1">
+                            <h5>Client:</h5>
+                            <h6>Yoga Website</h6>
+                        </li>
+                    </ul>
+                    <h6>Project URL:</h6>
+                    <a href="https://ahmedtaher820.github.io/yoga-website/index.html" 
+                    target="_blank" >https://ahmedtaher820.github.io/yoga-website/index.html</a>
+                    <h6>GITHUB URL:</h6>
+                    <a href="https://github.com/Ahmedtaher820/yoga-website" 
+                    target="_blank">https://github.com/Ahmedtaher820/yoga-website</a>
+                    <h6 class="mt-4">Tools:</h6>
+                    <ul class="list-unstyled tools">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap4</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <i class="bi bi-x" onclick="modalClose('yoga-modal')"></i>
+        
+    </div>
+    <div class="modal flex-column gap-5 help-modal">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="owl-carousel owl-theme" id="owl-carousel">
+                        <div class="item">
+                            <img src="img/helpz1.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img//helpz2.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/helpz3.PNG" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/helpz5.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="project-heading d-none d-md-block">
+                        <h2>Project information</h2>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class=" align-items-center gap-1 d-none d-md-flex">
+                            <h5>Category:</h5>
+                            <h6>Web application</h6>
+                        </li>
+                        <li class="d-flex align-items-center gap-1">
+                            <h5>Client:</h5>
+                            <h6>Charity Website</h6>
+                        </li>
+                    </ul>
+                    <h6>Project URL:</h6>
+                    <a href="https://ahmedtaher820.github.io/Helpze-people-website/index.html" 
+                    target="_blank" >https://ahmedtaher820.github.io/Helpze-people-website/index.html</a>
+                    <h6>GITHUB URL:</h6>
+                    <a href="https://github.com/Ahmedtaher820/Helpze-people-website" 
+                    target="_blank">https://github.com/Ahmedtaher820/Helpze-people-website</a>
+                    <h6 class="mt-4">Tools:</h6>
+                    <ul class="list-unstyled tools">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap4</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <i class="bi bi-x" onclick="modalClose('help-modal')"></i>
+        
+    </div>
     <div class="modal flex-column gap-5 portfolio-modal">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -726,6 +855,7 @@
         <i class="bi bi-x" onclick="modalClose('portfolio-modal')"></i>
        
     </div>
+
     </div>
     <script src="jquery-3.6.0.min.js"></script>
 

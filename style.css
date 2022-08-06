@@ -343,14 +343,20 @@ color: #1d1d1d;
     background-image: url("img/emarket-1.PNG");
 }
 .swiper-slide:nth-child(3) .slide-img{
-    background-image: url("img/yoga.PNG");
+    background-image: url("img/todo-list.jpg");
 }
 
 .swiper-slide:nth-child(4) .slide-img{
-    background-image: url("img/helpz3.PNG");
+    background-image: url("img/music-player.jpg");
 }
 .swiper-slide:nth-child(5) .slide-img{
     background-image: url("img//portoflio-trainging-5.PNG");
+}
+.swiper-slide:nth-child(6) .slide-img{
+    background-image: url("img/yoga.PNG");
+}
+.swiper-slide:nth-child(7) .slide-img{
+    background-image: url("img/helpz3.PNG");
 }
 .slide-img{
     background-size: 100%;
